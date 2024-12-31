@@ -1,0 +1,195 @@
+#boldpg{
+    font-weight: bold;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.card {
+    min-height: 300px;
+    padding: 20px 15px;
+    padding-left: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 10px;
+}
+
+h4 {
+    font-weight: bold;
+    font-size: larger;
+}
+
+.card-header {
+    font-size: 1.2rem; 
+    font-weight: bold;
+}
+
+.card-title {
+    font-size: 2.5rem; 
+    font-weight: bold; 
+    margin-bottom: 15px; 
+    color: #343a40; 
+}
+
+
+#weather-description {
+    font-size: 1.25rem;
+    margin-top: 10px;
+}
+
+.card-body ul {
+    font-size: 1.1rem; 
+    line-height: 1.5;
+    text-align: center; 
+
+}
+
+.card-body {
+    text-align: center;
+}
+
+
+.container h3 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+.container h5 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.container p {
+    font-size: 1.1rem;
+    text-align: center;
+    margin-top: 5px;
+    color: #343a40; 
+}
+
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes bounceIn {
+    0%, 20%, 40%, 60%, 80%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+#about-section {
+    background-attachment: fixed;
+}
+
+.btn:hover {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.3);
+}
+#contact-section {
+    background-attachment: fixed;
+}
+
+.btn:hover {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.3);
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes bounceIn {
+    0%, 20%, 40%, 60%, 80%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+.font-weight-bold {
+    font-weight: bolder;
+}
+
+#top {
+    background-attachment: fixed;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+
+.text-body-light:hover {
+    color: #ffffff;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
