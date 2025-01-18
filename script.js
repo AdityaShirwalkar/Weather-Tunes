@@ -1,4 +1,4 @@
-const apiKey = '9c72e80b45006b55f9d3335a235b8308'; 
+const apiKey = 'Your-api-key'; 
 
 document.querySelector('form').addEventListener('submit', function (e) {
     e.preventDefault();
